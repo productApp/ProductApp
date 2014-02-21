@@ -3,6 +3,11 @@
 
     <string name="app_name">Product App</string>
     <string name="action_settings">Settings</string>
+    <string name="productname">Product App</string>
+    <string name="title_activity_sign_up">SignUp</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_signin">Signin</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>

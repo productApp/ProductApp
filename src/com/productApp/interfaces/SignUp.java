@@ -3,28 +3,21 @@ package com.productApp.interfaces;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-import android.view.View;
-import android.content.Intent;
 
-public class MainActivity extends Activity {
+public class SignUp extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_sign_up);
 		getActionBar().hide();
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+		getMenuInflater().inflate(R.menu.sign_up, menu);
 		return true;
-	}
-	
-	public void signUpPage(View view){
-		Intent intent = new Intent(this, SignUp.class);
-		startActivity(intent);
 	}
 
 }
