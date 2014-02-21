@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppName</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_search">Search</string>
+    <string name="action_new">New Post</string>
+    <string name="menu_title_user_screen">User Information</string>
+    <string name="menu_title_product_detail">Product Detail</string>
+
+    <!-- Navigation Drawer Items -->
+    <string-array name="nav_drawer_items">
+        <item>Account Settings</item>
+        <item>Inventory</item>
+        <item>Sign off</item>
+    </string-array>
+
+    <!-- Navigation Drawer items' icons -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_inventory</item>
+        <item>@drawable/ic_action_sign_off</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_product">ProductActivity</string>
+    <string name="title_activity_inventory">InventoryActivity</string>
+
+</resources>
